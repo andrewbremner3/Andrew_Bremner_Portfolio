@@ -15,13 +15,13 @@ Zoomed in raw image vs the processed image:
   </tr>
   <tr>
     <td>
-      <img src="ReadMeImages/Whole_Slide.png" alt="Whole slide Image" height="400" title="Whole slide Image">
+      <img src="ReadMeImages/Whole_Slide.png" alt="Whole slide Image" height="300" title="Whole slide Image">
     </td>
     <td>
-      <img src="ReadMeImages/Raw_Well_Image.png" alt="One microarray Image" height="400" title="One microarray Image">
+      <img src="ReadMeImages/Raw_Well_Image.png" alt="One microarray Image" height="300" title="One microarray Image">
     </td>
     <td>
-      <img src="ReadMeImages/Processed_Well_Image.png" alt="Processed microarray Image" height="400" title="Processed microarray Image">
+      <img src="ReadMeImages/Processed_Well_Image.png" alt="Processed microarray Image" height="300" title="Processed microarray Image">
     </td>
   </tr>
 </table>
