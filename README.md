@@ -64,6 +64,6 @@ Same charts as above. This tiem the Random forest is both faster and more accura
 
 ## Points of interest
 * The "Slow Curve" pitch is found to be a "Curveball" quite often so could be lumped in (also only 5 instances).
-* "Pitch outs" are alwasy found as "Fastballs" which makes since that a PO is thrown to try and stop a runner from stealing so it is essentially a fastball outsie the zone.
-* "Slider", "Sweeper", "Cutter" and "Slurve" all have a lot of overlap as all those pitches have similar movement where then have a lot of horizonatal break compared to all the others.
-* The"Eephus" and "Fastball"should not overlap at all as they are complete opposite pitches but I would assume there is some odd behavior with the addition of position players throwing as slow as possible and having "Eephus" and "Fastballs" overlap.
+* "Pitch outs" are always found as "Fastballs" which makes since a "PO" is thrown to try and stop a runner from; so it is essentially a fastball outside the zone.
+* "Slider", "Sweeper", "Cutter" and "Slurve" all have a lot of overlap as all those pitches have similar movement. A lot of horizonatal break compared to all the others.
+* The"Eephus" and "Fastball" should not overlap at all as they are complete opposite pitches but I would assume there is some odd behavior with the addition of position players throwing as slow as possible and having "Eephus" and "Fastballs" overlap.
