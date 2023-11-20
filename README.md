@@ -2,7 +2,7 @@
 email: andrew.m.bremner@gmail.com
 
 # [Project 1: Micro Array Processor](https://github.com/andrewbremner3/Micro_Array_Processor)
-Streamlit App that take the input of a raw .tif image file from a slide scanner with 21 microarrays and processes them to output the intesities of the features using an input map and ID key to sort and average replicate features.
+Streamlit based Python App that take the input of a raw .tif image file from a slide scanner with 21 microarrays and processes them to output the intesities of the features using an input map and ID key to sort and average replicate features.
 
 Below are example imaged of the raw .tif image file from the slide scanner, then one zoomed in well to show the mocro array and fianllay the processed microarray with the featured circles and picked out.
 <table>
