@@ -1,7 +1,7 @@
 # Andrew Bremner's Data Science Portfolio
 email: andrew.m.bremner@gmail.com
 
-# Project 1: Micro Array Processor
+# [Project 1: Micro Array Processor](https://github.com/andrewbremner3/Micro_Array_Processor)
 Streamlit App that take the input of a raw .tif image file from a slide scanner with 21 microarrays and processes them to output the intesities of the features using an input map and ID key to sort and average replicate features.
 
 Below are example imaged of the raw .tif image file from the slide scanner, then one zoomed in well to show the mocro array and fianllay the processed microarray with the featured circles and picked out.
@@ -49,7 +49,7 @@ The provided images have been compressed for github to handle so the output inte
 
 
 
-# Project 2: MLB pitch classifier
+# [Project 2: MLB pitch classifier](https://github.com/andrewbremner3/MLB_Pitch_Classifier)
 This script takes two months worth of statcast data from the 2022 season (~250,000 pitches) and builds two machine learning models (Random Forest and Logistic Regression) to determine what type of pitch is thrown. 
 The data is cleaned and processed such that only the fields that make sense to a distinct pitch are used. 
 
