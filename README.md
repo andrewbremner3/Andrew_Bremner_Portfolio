@@ -46,7 +46,7 @@ Processing steps are:
 **Done!**
 
 The provided images have been compressed for github to handle so the output intesities have been altered by the compression process but the code and output images and files still show a full piture of the app's capabilities.
------
+
 
 
 # Project 2: MLB pitch classifier
