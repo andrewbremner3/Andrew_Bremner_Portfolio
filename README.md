@@ -1,4 +1,4 @@
-# Andrew Bremner's Data Science Portfolio
+## Andrew Bremner's Data Science Portfolio
 email: andrew.m.bremner@gmail.com
 
 # [Project 1: Micro Array Processor](https://github.com/andrewbremner3/Micro_Array_Processor)
