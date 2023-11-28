@@ -91,3 +91,43 @@ Same charts as above. This tiem the Random forest is both faster and more accura
 * "Pitch outs" are always found as "Fastballs" which makes since a "PO" is thrown to try and stop a runner from; so it is essentially a fastball outside the zone.
 * "Slider", "Sweeper", "Cutter" and "Slurve" all have a lot of overlap as all those pitches have similar movement. A lot of horizonatal break compared to all the others.
 * The"Eephus" and "Fastball" should not overlap at all as they are complete opposite pitches but I would assume there is some odd behavior with the addition of position players throwing as slow as possible and having "Eephus" and "Fastballs" overlap.
+
+# [Project 3: Housing Data Regression](https://github.com/andrewbremner3/Housing_Data_Regression)
+
+# Housing_Data
+Regression predictions from Kaggle competition [www.kaggle.com](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) where training and test data sets are provided.
+The data sets are 'un-cleaned' with empty rows and fields that need to be treated in various ways.
+
+### 1) Clean the Data
+Combined the Train and Test so that all treatments are done uniformly (necessary for using dummy variables in the following steps).
+
+Image below shows the "percent missing" of the initial data set.
+
+<img src="./ReadMeImages/PercentMissingData.png" width="800"/>
+
+Cleaning Treatments:
+* Drop rows that are outliers
+* Drop rows that are nearly empty
+* Fill empty fields
+  * Numerical fields filled with 0
+  * Object fields usually filled with 'None'
+  * Average of similar values (same Neighborhood) to fill 'LotFrontage' fields
+ 
+### 2) Use training data test protcol
+The hypothesis is that the numerical fields could be good enough for a strong model. The other option is to use 'dummy' variables for the catagories or object fields.
+
+* Numerical Data only
+  * Time to run: 10.81s
+  * Percent error of: 2.28%
+* All Data (dummy and numerical)
+  * Time to run: 96.33s
+  * Percent error of: 1.28%
+
+The extra data makes the fit take ~10x as long but has a measurably better error value.
+
+### 3) Final train and test
+The dummy variables made the RMSE better so that is what is used for the final setup.
+
+Use the entire training set to train the scaling as well as the Elastic Net model where the best parameters from the previous training were used. (Alpha = 200, l1_ratio = 1, max_iter = 10000).
+
+Results are simple and straight forward to understand for both the cleaning, training and learning on an imperfect data set.
