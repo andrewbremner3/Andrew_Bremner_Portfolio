@@ -92,9 +92,9 @@ Same charts as above. This tiem the Random forest is both faster and more accura
 * "Slider", "Sweeper", "Cutter" and "Slurve" all have a lot of overlap as all those pitches have similar movement. A lot of horizonatal break compared to all the others.
 * The"Eephus" and "Fastball" should not overlap at all as they are complete opposite pitches but I would assume there is some odd behavior with the addition of position players throwing as slow as possible and having "Eephus" and "Fastballs" overlap.
 
-# [Project 3: Housing Data Regression](https://github.com/andrewbremner3/Housing_Data_Regression)
+<hr size="12">
 
-# Housing_Data
+# [Project 3: Housing Data Regression](https://github.com/andrewbremner3/Housing_Data_Regression)
 Regression predictions from Kaggle competition [www.kaggle.com](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) where training and test data sets are provided.
 The data sets are 'un-cleaned' with empty rows and fields that need to be treated in various ways.
 
