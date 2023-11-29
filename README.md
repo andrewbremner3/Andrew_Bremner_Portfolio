@@ -113,7 +113,7 @@ Cleaning Treatments:
   * Object fields usually filled with 'None'
   * Average of similar values (same Neighborhood) to fill 'LotFrontage' fields
  
-### 2) Use training data test protcol
+### 2) Use training data for testing protocols
 The hypothesis is that the numerical fields could be good enough for a strong model. The other option is to use 'dummy' variables for the catagories or object fields.
 
 * Numerical Data only
@@ -123,7 +123,7 @@ The hypothesis is that the numerical fields could be good enough for a strong mo
   * Time to run: 96.33s
   * Percent error of: 1.28%
 
-The extra data makes the fit take ~10x as long but has a measurably better error value.
+The extra data makes the fit take ~10x as long but has a better error value.
 
 ### 3) Final train and test
 The dummy variables made the RMSE better so that is what is used for the final setup.
