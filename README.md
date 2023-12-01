@@ -120,7 +120,7 @@ Split training set into a train and test for the various models so I can check t
 Models tested:
 * RandomForestClassifier = 0.7987
 * GradientBoostingClassifier = 0.7924
-* HistGradientBoostingClassifier = 8039
+* HistGradientBoostingClassifier = 0.8039
 * BaggingClassifier = 0.7797
 
 ### 5) Final Train and Output
