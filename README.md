@@ -5,6 +5,9 @@ email: andrew.m.bremner@gmail.com
 # [Project 1: Micro Array Processor](https://github.com/andrewbremner3/Micro_Array_Processor)
 Streamlit based Python App that take the input of a raw .tif image file from a slide scanner with 21 microarrays and processes them to output the intensities of the features using an input map and ID key to sort and average replicate features.
 
+**Goal: Input a raw .tif file and process the image for each microarray and report the individual feature intesities.**
+
+
 Below are example imaged of the raw .tif image file from the slide scanner, then one zoomed in well to show the mocro array and fianllay the processed microarray with the featured circles and picked out.
 <table>
     <tr>
@@ -52,6 +55,9 @@ The provided images have been compressed for github to handle so the output inte
 
 # [Project 2: MLB pitch classifier](https://github.com/andrewbremner3/MLB_Pitch_Classifier)
 This script takes two months worth of statcast data from the 2022 season (~250,000 pitches) and builds two machine learning models (Random Forest and Logistic Regression) to determine what type of pitch is thrown. 
+
+**Goal: Predict the pitch thrown based on pitch tracking data of velocity and movement from Statcast.**
+
 The data is cleaned and processed such that only the fields that make sense to a distinct pitch are used. 
 
 These include:
@@ -94,8 +100,37 @@ Same charts as above. This tiem the Random forest is both faster and more accura
 
 <hr size="12">
 
-# [Project 3: Housing Data Regression](https://github.com/andrewbremner3/Housing_Data_Regression)
+# [Project 3: Spaceship Titanic Classification](https://github.com/andrewbremner3/Spaceship_Titanic)
+classification predictions from Kaggle competition [www.kaggle.com](https://www.kaggle.com/competitions/spaceship-titanic) where training and test data sets are provided.
+
+**Goal: Predict if a passanger was transported based on the persons attributes and ticket information.**
+
+### 1) Explore the Train data
+Determine which fields are correlated to transport and which fields need to be preprocessed in order to be input into the machine learning models.
+
+### 2) Train data Engineering
+Fill empty data with the mode for catagorical fields and mean for numerical fields. Then convert the catagory values with 'dummy' values for input to the training model.
+
+### 3) Repeat Data Engineering on Test data
+Test data is held out until final steps.
+
+### 4) Train various models with train data
+Split training set into a train and test for the various models so I can check the accuracy of the models for comparison.
+
+Models tested:
+* RandomForestClassifier = 0.792
+* GradientBoostingClassifier = 0.777
+* HistGradientBoostingClassifier =
+* BaggingClassifier =
+
+
+<hr size="12">
+
+# [Project 4: Housing Data Regression](https://github.com/andrewbremner3/Housing_Data_Regression)
 Regression predictions from Kaggle competition [www.kaggle.com](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) where training and test data sets are provided.
+
+**Goal: Predict the price of houses based on various attributes of the houses.**
+
 The data sets are 'un-cleaned' with empty rows and fields that need to be treated in various ways.
 
 ### 1) Clean the Data
