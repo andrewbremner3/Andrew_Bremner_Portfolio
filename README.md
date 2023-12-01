@@ -103,7 +103,7 @@ Combined the Train and Test so that all treatments are done uniformly (necessary
 
 Image below shows the "percent missing" of the initial data set.
 
-<img src="./Images/PercentMissingData.png" width="800"/>
+<img src="./ReadMeImages/PercentMissingData.png" width="800"/>
 
 Cleaning Treatments:
 * Drop rows that are outliers
