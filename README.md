@@ -103,7 +103,7 @@ Combined the Train and Test so that all treatments are done uniformly (necessary
 
 Image below shows the "percent missing" of the initial data set.
 
-<img src="./ReadMeImages/PercentMissingData.png" width="800"/>
+<img src="./Images/PercentMissingData.png" width="800"/>
 
 Cleaning Treatments:
 * Drop rows that are outliers
@@ -113,7 +113,7 @@ Cleaning Treatments:
   * Object fields usually filled with 'None'
   * Average of similar values (same Neighborhood) to fill 'LotFrontage' fields
  
-### 2) Use training data for testing protocols
+### 2) Use training data test protcol
 The hypothesis is that the numerical fields could be good enough for a strong model. The other option is to use 'dummy' variables for the catagories or object fields.
 
 * Numerical Data only
@@ -122,12 +122,19 @@ The hypothesis is that the numerical fields could be good enough for a strong mo
 * All Data (dummy and numerical)
   * Time to run: 96.33s
   * Percent error of: 1.28%
+The extra data makes the fit take ~10x as long but has a measurably better error value.
 
-The extra data makes the fit take ~10x as long but has a better error value.
+Try a Random Forest Regression model as well.
+* All Data (dummy and numerical)
+  * Time to run: 0.33s
+  * Percent error of: 1.32%
+This model is substantially faster and has a comparable error on test set.
 
 ### 3) Final train and test
-The dummy variables made the RMSE better so that is what is used for the final setup.
-
+The dummy variables made the RMSE better so that is what is used for the final Elastic Net setup.
 Use the entire training set to train the scaling as well as the Elastic Net model where the best parameters from the previous training were used. (Alpha = 200, l1_ratio = 1, max_iter = 10000).
+The results on Kaggle show there is probably over fitting as the score is quite bad at 6.7271
 
-Results are simple and straight forward to understand for both the cleaning, training and learning on an imperfect data set.
+A Random Forest Regression is then tried and shows substantially better results.
+The score is 0.1547 which is much better thanthe Elastic Net model.
+
