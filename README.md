@@ -118,11 +118,15 @@ Test data is held out until final steps.
 Split training set into a train and test for the various models so I can check the accuracy of the models for comparison.
 
 Models tested:
-* RandomForestClassifier = 0.792
-* GradientBoostingClassifier = 0.777
-* HistGradientBoostingClassifier =
-* BaggingClassifier =
+* RandomForestClassifier = 0.7987
+* GradientBoostingClassifier = 0.7924
+* HistGradientBoostingClassifier = 8039
+* BaggingClassifier = 0.7797
 
+### 5) Final Train and Output
+The HistGradientBoostingClassifier has the best score from the tests so that is what is used in the final training set. Ouput the data as Kaggle needs the output for final testing.
+
+The Final Score from the leaderboard = 0.79658.
 
 <hr size="12">
 
