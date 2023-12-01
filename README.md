@@ -175,5 +175,5 @@ Use the entire training set to train the scaling as well as the Elastic Net mode
 The results on Kaggle show there is probably over fitting as the score is quite bad at 6.7271
 
 A Random Forest Regression is then tried and shows substantially better results.
-The score is 0.1547 which is much better thanthe Elastic Net model.
+The score is 0.1547 which is much better than the Elastic Net model.
 
