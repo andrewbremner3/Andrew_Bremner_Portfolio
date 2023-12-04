@@ -109,9 +109,10 @@ classification predictions from Kaggle competition [www.kaggle.com](https://www.
 Determine which fields are correlated to transport and which fields need to be preprocessed in order to be input into the machine learning models.
 
 Charts showing some of the data exploration.
-
-<img src="./ReadMeImages/EDA.png" width="440"/><img src="./ReadMeImages/Corr.png" width="380"/>
-
+<p align="center">
+    <img src="./ReadMeImages/EDA.png" width="500"/>
+    <img src="./ReadMeImages/Corr.png" width="420"/>
+</p>
 
 
 ### 2) Train data Engineering
