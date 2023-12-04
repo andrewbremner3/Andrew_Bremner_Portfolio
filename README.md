@@ -108,6 +108,12 @@ classification predictions from Kaggle competition [www.kaggle.com](https://www.
 ### 1) Explore the Train data
 Determine which fields are correlated to transport and which fields need to be preprocessed in order to be input into the machine learning models.
 
+Charts showing some of the data exploration.
+
+<img src="./ReadMeImages/EDA.png" width="480"/><img src="./ReadMeImages/Corr.png" width="420"/>
+
+
+
 ### 2) Train data Engineering
 Fill empty data with the mode for catagorical fields and mean for numerical fields. Then convert the catagory values with 'dummy' values for input to the training model.
 
