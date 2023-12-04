@@ -110,7 +110,7 @@ Determine which fields are correlated to transport and which fields need to be p
 
 Charts showing some of the data exploration.
 
-<img src="./ReadMeImages/EDA.png" width="480"/><img src="./ReadMeImages/Corr.png" width="420"/>
+<img src="./ReadMeImages/EDA.png" width="440"/><img src="./ReadMeImages/Corr.png" width="380"/>
 
 
 
