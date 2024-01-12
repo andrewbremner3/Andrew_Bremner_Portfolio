@@ -1,4 +1,4 @@
-### [Andrew Bremner's Portfolio](https://github.com/andrewbremner3)
+## [Andrew Bremner's Portfolio](https://github.com/andrewbremner3)
 email: andrew.m.bremner@gmail.com
 <hr size="12">
 
