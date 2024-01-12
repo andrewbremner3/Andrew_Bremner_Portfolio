@@ -1,4 +1,4 @@
-### Andrew Bremner's Data Science Portfolio
+### [Andrew Bremner's Portfolio](https://github.com/andrewbremner3)
 email: andrew.m.bremner@gmail.com
 <hr size="12">
 
