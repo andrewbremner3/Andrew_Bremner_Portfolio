@@ -186,6 +186,30 @@ The score is 0.1547 which is much better than the Elastic Net model.
 
 <hr size="16">
 
+# Web Apps in JavaScript and HTML
+### Apps built in ["The Complete JavaScript Course 2024: From Zero to Expert!"](https://www.udemy.com/course/the-complete-javascript-course/?utm_campaign=website1010&utm_medium=website1010&utm_source=mycoupon) with [Jonas Schmedtmann](https://codingheroes.io/)
+
+## [Forkify App](https://forkify-andrewbrem.netlify.app/)
+Web app that uses the [forkify API](https://forkify-api.herokuapp.com/v2)
+**Functionalities:**
+* Display searched for items
+* Use pagination to show 10 items at a time
+* Buttons for adding more and less servings
+* Bookmark favorite recipes (add to the bookmark tab as well as icon change)
+* Allow to input custom recipes with a form that has a modal window
+* Use local storage to hold bookmarks and data
+
+## [Bankist App](https://bankist-app-test.netlify.app/)
+Mock marketing page for a banking website that has Features and Operations of the accounts as well as Testimonials for the 'bank accounts.' Also, has a ability to 'Open account' in a modal window.
+**Functionalities:**
+* Modal functioanlity for the 'open account' buttons.
+* Smooth the scrolling from click events to sections of page.
+* Highlight the active tabe button and blur other options.
+* Increase efficiency of page loading with dynamic loadings for sections as well as with lazy loading of images with blur low quality images that are replaced by higher quality images on scroll events.
+* Click event for moving hthrough the options as well as with dots that allow skipping and tracking what option is selected.
+
+<hr size="16">
+
 # Kaggle PlayGroundSeries
 ### Kaggle playground prediction series notebooks
 ---
