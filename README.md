@@ -191,6 +191,7 @@ The score is 0.1547 which is much better than the Elastic Net model.
 
 ## [Forkify App](https://forkify-andrewbrem.netlify.app/)
 Web app that uses the [forkify API](https://forkify-api.herokuapp.com/v2)
+
 **Functionalities:**
 * Display searched for items
 * Use pagination to show 10 items at a time
@@ -201,6 +202,7 @@ Web app that uses the [forkify API](https://forkify-api.herokuapp.com/v2)
 
 ## [Bankist App](https://bankist-app-test.netlify.app/)
 Mock marketing page for a banking website that has Features and Operations of the accounts as well as Testimonials for the 'bank accounts.' Also, has a ability to 'Open account' in a modal window.
+
 **Functionalities:**
 * Modal functioanlity for the 'open account' buttons.
 * Smooth the scrolling from click events to sections of page.
